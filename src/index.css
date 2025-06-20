@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Modern UI Theme */
+@theme {
+  --color-background: #0e0b1f;         
+  --color-input: #1f1833;             
+  --color-buttons: #8f43ff;            
+  --color-light-text: #f5f5fa;        
+  --color-btn-text: #d3bfff;           
+  --color-container: #1a142b;         
+
+  --color-muted: #2f2a45;              
+  --color-sub-text: #a9a9c0;          
+}
+
+/* Custom Scrollbar */
+.custom-scroll::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: #1f1833;
+  border-radius: 8px;
+}
+
+/* Thumb */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background-color: #5f4b8b;
+  border-radius: 6px;
+  border: 2px solid transparent;
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Thumb on Hover */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: #7e6bb0;
+}
